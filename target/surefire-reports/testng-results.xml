@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-26T15:59:14Z" name="Surefire suite" finished-at="2025-06-26T15:59:37Z" duration-ms="22886">
+    <groups>
+    </groups>
+    <test started-at="2025-06-26T15:59:14Z" name="Surefire test" finished-at="2025-06-26T15:59:37Z" duration-ms="22886">
+      <class name="com.nc.NCTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.nc.NCTest@13c27452]" started-at="2025-06-26T11:59:14Z" name="init" finished-at="2025-06-26T11:59:14Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="NCTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.nc.NCTest@13c27452]" started-at="2025-06-26T11:59:14Z" name="NCTitle" data-provider="hardCodedBrowsers" finished-at="2025-06-26T11:59:35Z" duration-ms="20317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MicrosoftEdge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.nc.NCTest.NCTitle(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NCTitle -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nc.NCTest@13c27452]" started-at="2025-06-26T11:59:35Z" name="tearDown" finished-at="2025-06-26T11:59:37Z" duration-ms="2559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NCTitle status=SUCCESS method=NCTest.NCTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.nc.NCTest@13c27452] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nc.NCTest@13c27452]" started-at="2025-06-26T11:59:37Z" name="tearDown" finished-at="2025-06-26T11:59:37Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nc.NCTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
